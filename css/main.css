@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
+
 body {
   margin: 0px;
   padding: 0px; }
@@ -107,17 +111,35 @@ header {
   font-size: 60px !important;
   /* Override the font-size specified earlier (36px) for all navigation links */ }
 
-.hero-text p {
-  margin-top: 0px;
+#typing {
   position: absolute;
-  color: white;
-  top: 50%;
-  margin-bottom: 0px;
-  width: 100vw;
-  text-align: center;
-  font-size: 200%;
-  font-family: fantasy; }
+  color: #fff;
+  font-size: 100%;
+  top: 40%;
+  left: 20%;
+  margin-right: 0px;
+  font-family: fantasy;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 1px solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0;
+  /* Gives that scrolling effect as the typing happens */
+  animation: type 5s steps(30, end), blink-caret 0.5s; }
 
+@keyframes type {
+  from {
+    width: 0%; }
+  to {
+    width: 100%; } }
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  100% {
+    border-color: orange; } }
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px; }
@@ -151,6 +173,21 @@ header {
     animation: wiggle 1.5s infinite; }
 
   .hero-text p {
-    top: 36%; } }
+    top: 36%; }
+
+  #typing {
+    position: absolute;
+    color: #fff;
+    font-size: 100%;
+    top: 40%;
+    left: 0px;
+    width: -webkit-fill-available;
+    margin-right: 0px;
+    font-family: fantasy;
+    overflow: hidden;
+    border-right: 1px solid orange;
+    white-space: normal;
+    margin: 0;
+    animation: type 5s steps(30, end), blink-caret 0.5s; } }
 
 /*# sourceMappingURL=main.css.map */

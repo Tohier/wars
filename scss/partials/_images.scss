@@ -1,0 +1,30 @@
+#typing  {
+    position: absolute;
+    color: #fff;
+    font-size: 100%;
+    top: 40%;
+    left: 20%;
+    margin-right: 0px;
+    font-family: fantasy;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 1px solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0; /* Gives that scrolling effect as the typing happens */
+    // letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      type 5s steps(30
+      , end),
+      blink-caret .5s;
+  }
+
+  @keyframes type {
+    from { width: 0% }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    100% { border-color: orange }
+  }
+  

@@ -40,4 +40,19 @@
       .hero-text p {
           top: 36%;
       }
+      #typing {
+        position: absolute;
+        color: #fff;
+        font-size: 100%;
+        top: 40%;
+        left: 0px;
+        width: -webkit-fill-available;
+        margin-right: 0px;
+        font-family: fantasy;
+        overflow: hidden;
+        border-right: 1px solid orange;
+        white-space: normal;
+        margin: 0;
+        animation: type 5s steps(30, end), blink-caret 0.5s;
+    }
 }
