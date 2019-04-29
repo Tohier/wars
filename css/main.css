@@ -4,7 +4,7 @@ body {
 
 header {
   height: 100vh;
-  background-image: linear-gradient(rgba(78, 78, 78, 0.4), rgba(255, 94, 0, 0.2)), url(../images/ww.jpg);
+  background-image: linear-gradient(rgba(78, 78, 78, 0.4), rgba(255, 94, 0, 0.2)), url(/images/ww.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
