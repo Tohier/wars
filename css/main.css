@@ -16,8 +16,29 @@ header {
   padding-right: 0.6875rem; }
 
 .circle {
+  z-index: 1;
   position: fixed;
   top: 50%;
+  left: -25px;
+  height: 4rem;
+  width: 4rem;
+  background-color: #818181;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  text-align: right;
+  animation: wiggle 1.5s infinite; }
+
+#bars2 {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #ffff;
+  padding-right: 0.6875rem; }
+
+.circle2 {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 0%;
   left: -25px;
   height: 4rem;
   width: 4rem;
@@ -49,7 +70,7 @@ header {
   width: 0;
   position: fixed;
   /* Stay in place */
-  z-index: 1;
+  z-index: 5;
   /* Sit on top */
   left: 0;
   top: 0;
@@ -96,6 +117,17 @@ header {
   font-size: 60px !important;
   /* Override the font-size specified earlier (36px) for all navigation links */ }
 
+.hero-text p {
+  margin-top: 0px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  margin-bottom: 0px;
+  width: 100vw;
+  text-align: center;
+  font-size: 200%;
+  font-family: fantasy; }
+
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px; }
@@ -104,5 +136,28 @@ header {
     font-size: 40px !important;
     top: 15px;
     right: 35px; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+  .circle {
+    display: none; }
+
+  #bars2 {
+    font-size: 264%;
+    cursor: pointer;
+    color: #ffff;
+    padding-right: 0.6875rem; }
+
+  .circle2 {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    left: -25px;
+    height: 4rem;
+    width: 4rem;
+    background-color: #818181;
+    border-top-right-radius: 00%;
+    border-bottom-right-radius: 100%;
+    text-align: right;
+    animation: wiggle 1.5s infinite; } }
 
 /*# sourceMappingURL=main.css.map */

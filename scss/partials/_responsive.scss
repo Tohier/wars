@@ -7,3 +7,33 @@
         right: 35px;
     }
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 600px) {
+
+    .circle {
+        display: none;
+    }
+    #bars2 {
+        font-size: 264%;
+        cursor: pointer;
+        color: #ffff;
+        padding-right: 0.6875rem;  
+      }
+      
+      .circle2 {
+        display: block;
+        z-index: 1;
+        position: fixed;
+        top: 0%;
+        left: -25px;
+        height: 4rem;
+        width: 4rem;
+        background-color: #818181;
+        border-top-right-radius: 00%;
+        border-bottom-right-radius: 100%;
+        text-align: right;
+        animation: wiggle 1.5s infinite;
+      }
+}
