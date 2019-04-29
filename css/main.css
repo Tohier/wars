@@ -9,13 +9,8 @@ header {
   background-size: cover;
   background-attachment: fixed; }
 
-#bars {
-  font-size: 3rem;
-  cursor: pointer;
-  color: #ffff;
-  padding-right: 0.6875rem; }
-
 .circle {
+  cursor: pointer;
   z-index: 1;
   position: fixed;
   top: 50%;
@@ -28,13 +23,8 @@ header {
   text-align: right;
   animation: wiggle 1.5s infinite; }
 
-#bars2 {
-  font-size: 3rem;
-  cursor: pointer;
-  color: #ffff;
-  padding-right: 0.6875rem; }
-
 .circle2 {
+  cursor: pointer;
   display: none;
   z-index: 1;
   position: fixed;
@@ -158,6 +148,9 @@ header {
     border-top-right-radius: 00%;
     border-bottom-right-radius: 100%;
     text-align: right;
-    animation: wiggle 1.5s infinite; } }
+    animation: wiggle 1.5s infinite; }
+
+  .hero-text p {
+    top: 36%; } }
 
 /*# sourceMappingURL=main.css.map */

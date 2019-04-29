@@ -1,11 +1,7 @@
-#bars {
-    font-size: 3rem;
-    cursor: pointer;
-    color: #ffff;
-    padding-right: 0.6875rem;  
-}
+
 
 .circle {
+  cursor: pointer;
     z-index: 1;
     position: fixed;
     top: 50%;
@@ -20,14 +16,10 @@
 }
 
 // for the menu button on mobile
-#bars2 {
-  font-size: 3rem;
-  cursor: pointer;
-  color: #ffff;
-  padding-right: 0.6875rem;  
-}
+
 
 .circle2 {
+  cursor: pointer;
   display: none;
   z-index: 1;
   position: fixed;
