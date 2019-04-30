@@ -97,12 +97,14 @@ header {
   display: block;
   /* Display block instead of inline */
   transition: 0.3s;
-  /* Transition effects on hover (color) */ }
+  /* Transition effects on hover (color) */
+  text-shadow: 2px 2px 20px white; }
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
-  transform: scale(1.2); }
+  transform: scale(1.2);
+  text-shadow: none; }
 
 /* Position the close button (top right corner) */
 .closebtn {
@@ -122,7 +124,7 @@ header {
   width: 35vw;
   text-align: center;
   font-size: 200%;
-  text-shadow: 4px 4px black; }
+  text-shadow: 3px 3px 3px black; }
 
 .hero-text {
   width: 100vw; }
@@ -176,7 +178,6 @@ header {
     margin-bottom: 0px;
     width: 100vw;
     text-align: center;
-    font-size: 200%;
-    font-family: fantasy; } }
+    font-size: 200%; } }
 
 /*# sourceMappingURL=main.css.map */
