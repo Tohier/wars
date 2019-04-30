@@ -51,10 +51,10 @@
       transform: rotateZ(-10deg);
     }
     30% {
-      transform: rotateZ(6deg);
+      transform: rotateZ(20deg);
     }
     35% {
-      transform: rotateZ(-4deg);
+      transform: rotateZ(-40deg);
     }
     40%, 100% {
       transform: rotateZ(0);
@@ -111,19 +111,18 @@
 
 // the style for the hero text
 
-// .hero-text p {
-//   margin-top: 0px;
-//   position: absolute;
-//   color: white;
-//   top: 50%;
-//   margin-bottom: 0px;
-//   width: 100vw;
-//   text-align: center;
-//   font-size: 200%;
-//   font-family: fantasy;
-// }
-
-// .hero-text {
-//   padding-left: 5rem;
-//   width: 50vw;  
-// }
+.hero-text p {
+  margin-top: 0px;
+  position: absolute;
+  color: white;
+  top: 44%;
+  left: 33%;
+  margin-bottom: 0px;
+  width: 35vw;
+  text-align: center;
+  font-size: 200%;
+  font-family: fantasy;
+}
+.hero-text {
+  width: 100vw;  
+}

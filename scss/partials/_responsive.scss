@@ -12,6 +12,15 @@
   and (min-device-width: 320px) 
   and (max-device-width: 600px) {
 
+    header {
+        height: 100vh;
+        background-image: linear-gradient(rgba(78, 78, 78, 0.4), rgba(255, 94, 0, 0.2)), url(../images/ww.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
     .circle {
         display: none;
     }
@@ -35,24 +44,19 @@
         border-bottom-right-radius: 100%;
         text-align: right;
         animation: wiggle 1.5s infinite;
-      }
-
-      .hero-text p {
-          top: 36%;
-      }
-      #typing {
-        position: absolute;
-        color: #fff;
-        font-size: 100%;
-        top: 40%;
-        left: 0px;
-        width: -webkit-fill-available;
-        margin-right: 0px;
-        font-family: fantasy;
-        overflow: hidden;
-        border-right: 1px solid orange;
-        white-space: normal;
-        margin: 0;
-        animation: type 5s steps(30, end), blink-caret 0.5s;
     }
+
+    .hero-text p {
+        margin-top: 0px;
+        position: absolute;
+        color: white;
+        top: 36%;
+        left: 0%;
+        margin-bottom: 0px;
+        width: 100vw;
+        text-align: center;
+        font-size: 200%;
+        font-family: fantasy;
+      }
+      
 }
