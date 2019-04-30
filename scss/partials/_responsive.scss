@@ -58,5 +58,24 @@
         font-size: 200%;
         
       }
+
+      #ww-1 {
+        height: 100vh;
+        background-image: linear-gradient(rgb(0, 0, 0), rgba(9, 9, 9, 0.15)), url(../images/ww1.jpg);
+        background-size: cover;
+        
+    }
+
+      .text-1 {
+        width: 100vw;
+        height: 100%;
+        left: 0px;
+        font-size: 130%;
+        position: absolute;
+        margin-top: 35%;
+        text-shadow: 1px 1px black;
+        color: white;
+    }
+    
       
 }

@@ -6,6 +6,11 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'New Rocker', cursive;
+    transition: background-color .5s;
+}
+
+p {
+    margin-top: 0px;
 }
 
 header {
@@ -14,4 +19,29 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+// styles for the world war 1 section
+
+.ww-1 {
+    width:100vw;
+
+}
+
+#ww-1 {
+    height: 100vh;
+    background-image: url(../images/ww1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-1 {
+    width: 30%;
+    height: 30%;
+    font-size: 130%;
+    position: absolute;
+    margin-top: 6%;
+    left: 10%;
+    text-shadow: 2px 2px white;
+    font-weight: 500;
 }
