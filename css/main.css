@@ -4,7 +4,8 @@ html {
 
 body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-family: 'New Rocker', cursive; }
 
 header {
   height: 100vh;
@@ -121,7 +122,7 @@ header {
   width: 35vw;
   text-align: center;
   font-size: 200%;
-  font-family: fantasy; }
+  text-shadow: 4px 4px black; }
 
 .hero-text {
   width: 100vw; }
